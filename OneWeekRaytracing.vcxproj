@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{C4CD0FA3-0683-40DB-AB1B-430A4EA9AEFD}</ProjectGuid>
-    <RootNamespace>PPMExample</RootNamespace>
+    <ProjectGuid>{93620E3E-06F0-4AE3-BCFB-29494B58C2CD}</ProjectGuid>
+    <RootNamespace>OneWeekRaytracing</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -118,11 +118,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CVector3.cpp" />
-    <ClCompile Include="PPMExample.cpp" />
+    <ClCompile Include="mainProc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CVector3.h" />
+    <ClInclude Include="hitable.h" />
+    <ClInclude Include="hitable_list.h" />
+    <ClInclude Include="ray.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="vec3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
